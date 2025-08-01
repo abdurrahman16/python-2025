@@ -1,0 +1,16 @@
+ #reuslt program
+marks= int(input('Enter Your Makrs: '))
+if marks>=90:
+  grade ='A+'
+  comment='Excellent'
+elif marks>=80:
+  grade='A'
+  comment='Good'
+elif marks>=70:
+  grade= 'B'
+  comment= 'Not good'
+else:
+  grade='F'
+  comment='You are suspended from school'
+
+print(marks, grade, comment)
